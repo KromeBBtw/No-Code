@@ -1,0 +1,7 @@
+*.out
+.vscode
+wget-log
+build/*
+*.pdf
+build
+doxygen_output/*
