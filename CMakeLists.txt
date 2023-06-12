@@ -36,16 +36,17 @@ find_package(GTest REQUIRED)
 include(GoogleTest)
 
 #create a test executable
-add_executable(tests test/test.cpp)
+add_executable(dev_test test/test.cpp)
 
 #link the gtest libraries
-target_link_libraries(tests PRIVATE GTest::GTest GTest::Main)
+target_link_libraries(dev_test PRIVATE GTest::GTest GTest::Main)
 
 #link the library we want to test
-target_link_libraries(tests PRIVATE developer_library)
+target_link_libraries(dev_test PRIVATE lib1)
 
 #add the include directories
-target_include_directories(tests PUBLIC include)
+target_include_directories(dev_test PUBLIC include)
 
 #discover and add tests to the test list
-gtest_discover_tests(tests)
+gtest_discover_tests(dev_test)
+
