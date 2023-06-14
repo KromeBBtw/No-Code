@@ -8,7 +8,7 @@ auto main() -> int
     std::vector<std::shared_ptr<developer>> developers;
 
     std::shared_ptr<JuniorDeveloper> junior_developer = std::make_shared<JuniorDeveloper>("Malian", "Krome");
-    std::shared_ptr<JuniorDeveloper> senior_developer = std::make_shared<JuniorDeveloper>("Linus", "SunilRednael");
+    std::shared_ptr<SeniorDeveloper> senior_developer = std::make_shared<SeniorDeveloper>("Linus", "SunilRednael");
 
     developers.push_back(junior_developer);
     developers.push_back(senior_developer);

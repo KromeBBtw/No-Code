@@ -2,7 +2,6 @@
 #include <iostream>
 #include <string>
 
-
 developer::developer(const std::string& name, const std::string& alias) : name_{name}, alias_{alias}
 {
 }
@@ -35,7 +34,7 @@ JuniorDeveloper::JuniorDeveloper(const std::string& name, const std::string& ali
 
 void JuniorDeveloper::solve_problem() const
 {
-    std::cout << *this << std::endl;
+    std::cout <<"Solving a problem:"<< std::endl<< *this << std::endl;
     std::cout << "Don't talk to me until this coffee is finished!" << std::endl;
     drink_coffee();
 }
@@ -46,7 +45,7 @@ SeniorDeveloper::SeniorDeveloper(const std::string& name, const std::string& ali
 
 void SeniorDeveloper::solve_problem() const
 {
-    std::cout << *this << std::endl;
-    std::cout << " Stressed, blessed, and coffee obsessed." << std::endl;
+    std::cout <<"Solving a problem:"<< std::endl<< *this << std::endl;
+    std::cout <<"Stressed, blessed, and coffee obsessed." << std::endl;
     drink_coffee();
 }
