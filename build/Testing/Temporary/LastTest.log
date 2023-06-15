@@ -1,0 +1,30 @@
+Start testing: Jun 14 07:34 UTC
+----------------------------------------------------------
+1/1 Testing: DeveloperTest.ConstructorTets
+1/1 Test: DeveloperTest.ConstructorTets
+Command: "/workspaces/No-Code/build/dev_test" "--gtest_filter=DeveloperTest.ConstructorTets" "--gtest_also_run_disabled_tests"
+Directory: /workspaces/No-Code/build
+"DeveloperTest.ConstructorTets" start time: Jun 14 07:34 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/codespace/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = DeveloperTest.ConstructorTets
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DeveloperTest
+[ RUN      ] DeveloperTest.ConstructorTets
+[       OK ] DeveloperTest.ConstructorTets (0 ms)
+[----------] 1 test from DeveloperTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"DeveloperTest.ConstructorTets" end time: Jun 14 07:34 UTC
+"DeveloperTest.ConstructorTets" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 14 07:34 UTC

@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/workspaces/No-Code/build",
+  "command": "/usr/bin/clang++  -I/workspaces/No-Code/include -g -std=gnu++11 -Wall -Wextra -pedantic -o CMakeFiles/lib1.dir/src/developer.cpp.o -c /workspaces/No-Code/src/developer.cpp",
+  "file": "/workspaces/No-Code/src/developer.cpp",
+  "output": "CMakeFiles/lib1.dir/src/developer.cpp.o"
+},
+{
+  "directory": "/workspaces/No-Code/build",
+  "command": "/usr/bin/clang++  -I/workspaces/No-Code/include -g -std=gnu++11 -Wall -Wextra -pedantic -o CMakeFiles/exec_main.dir/src/main.cpp.o -c /workspaces/No-Code/src/main.cpp",
+  "file": "/workspaces/No-Code/src/main.cpp",
+  "output": "CMakeFiles/exec_main.dir/src/main.cpp.o"
+},
+{
+  "directory": "/workspaces/No-Code/build",
+  "command": "/usr/bin/clang++ -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -I/workspaces/No-Code/include -g -std=gnu++14 -Wall -Wextra -pedantic -o CMakeFiles/dev_test.dir/test/test.cpp.o -c /workspaces/No-Code/test/test.cpp",
+  "file": "/workspaces/No-Code/test/test.cpp",
+  "output": "CMakeFiles/dev_test.dir/test/test.cpp.o"
+}
+]

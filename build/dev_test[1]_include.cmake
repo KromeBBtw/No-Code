@@ -1,0 +1,5 @@
+if(EXISTS "/workspaces/No-Code/build/dev_test[1]_tests.cmake")
+  include("/workspaces/No-Code/build/dev_test[1]_tests.cmake")
+else()
+  add_test(dev_test_NOT_BUILT dev_test_NOT_BUILT)
+endif()

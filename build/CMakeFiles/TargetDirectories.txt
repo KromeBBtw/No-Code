@@ -1,0 +1,6 @@
+/workspaces/No-Code/build/CMakeFiles/lib1.dir
+/workspaces/No-Code/build/CMakeFiles/exec_main.dir
+/workspaces/No-Code/build/CMakeFiles/dev_test.dir
+/workspaces/No-Code/build/CMakeFiles/test.dir
+/workspaces/No-Code/build/CMakeFiles/edit_cache.dir
+/workspaces/No-Code/build/CMakeFiles/rebuild_cache.dir

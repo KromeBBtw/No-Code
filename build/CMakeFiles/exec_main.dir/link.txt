@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g CMakeFiles/exec_main.dir/src/main.cpp.o -o exec_main  liblib1.a 
